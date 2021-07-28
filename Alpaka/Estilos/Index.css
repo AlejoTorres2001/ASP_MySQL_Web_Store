@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+    font-family: "Poppins" !important;
+    font-size: 17px !important;
+    line-height: 1.5 !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden;
+}
+.llama{
+
+
+  width: 50px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none !important;
+  color: rgba(34, 54, 69, 0.7) !important;
+  font-weight: 800 !important;
+}
+
+.header a:hover {
+  color: #508f27 !important;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    rgba(131, 58, 180, 1) 0%,
+    #508f27 51%,
+    rgba(131, 58, 180, 1) 100%
+  );
+}
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder !important;
+  font-size: 15px !important;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100rem;
+
+  background-image: linear-gradient(
+    181deg,
+    rgba(131, 58, 180, 1) 40.9%,
+    rgba(61, 129, 44, 1) 80.8%
+  );
+}
+
+.nav-item {
+  margin-right: 2rem;
+}
+ul {
+  list-style: none;
+}
+.navbar {
+  background: #fff;
+  padding: 3rem 2rem;
+  height: 0rem;
+  min-height: 12vh;
+}
+.navbar.navbar-brand a {
+  padding: 1rem 0 !important;
+  display: block !important;
+  text-decoration: none !important;
+}
+.navbar-brand {
+  font-family: "Pacifico", cursive !important;
+  font-size: 2.5rem !important;
+  color: rgba(131, 58, 180, 1) !important;
+}
+.navbar-toggler {
+  background: rgba(131, 58, 180, 1) !important;
+  border: none !important;
+  padding: 10px 6px !important;
+  outline: none !important;
+}
+.navbar-toggler span {
+  display: block !important;
+  width: 22px !important;
+  height: 2px !important;
+  border: 1px !important;
+  background: rgba(131, 58, 180, 1) !important;
+}
+.navbar-toggler span + span {
+  margin-top: 4px !important;
+  width: 18px !important;
+  margin-left: 4px !important;
+}
+.navbar-toggler span + span + span {
+  width: 10px !important;
+  margin-left: 10px !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 2rem 1 2rem !important;
+  font-size: 1.4rem !important;
+  position: relative !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  border-top: 4px solid rgba(61, 129, 44, 1) !important;
+  color: rgba(61, 129, 44, 1) !important;
+}
+.navbar-nav button {
+  padding: 1.2rem 0 !important;
+}
+.navbar-nav .btn {
+  border-radius: 0 !important;
+  padding: 0.5rem !important;
+  font-size: 1rem !important;
+  margin-top: 1px !important;
+}
+
+.carousel-item {
+  height: 32rem;
+  background: #777;
+  position: relative;
+}
+.texto {
+  color: gainsboro;
+  text-align: center;
+  text-decoration: solid;
+  font-size: medium;
+  font-weight: 700;
+}
+.img {
+    overflow-y: hidden !important;
+}
+.overlay-image {
+    background-image: url("/resources/pexels-evg-culture-1040173.jpg") !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    overflow-y:hidden !important;
+}
+.container {
+    margin-right:15rem !important;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -5rem;
+    
+}
+section {
+  width: 200vh;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  overflow: hidden;
+  width: 20rem;
+  margin-right: 4rem;
+}
+.btn-bg {
+  background-color: #508f27 !important;
+  color: #fff !important;
+  margin-left: 1rem;
+}
+.btn-bg:hover {
+  color: #fff !important;
+}
+.btn-bg:focus {
+  box-shadow: 0 0 0 0.25rem #777 !important;
+}
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.2) !important;
+  transition: all 0.7s linear !important;
+}
+.card-body {
+  padding: 2rem 0 !important;
+}
+.card-text {
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+}
+.card-img-top {
+  transition: all 0.2s ease-in-out;
+}
+.card-img-top:hover {
+  transform: scale(1.13);
+}
+.overflow {
+  overflow: hidden;
+}
+.card-title {
+  margin-left: 1rem;
+  font-weight: 600;
+}
+
+footer {
+  color: rgba(34, 54, 69, 0.7) !important;
+  height: 700px;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+.titulos-footer {
+  font-family: "Pacifico", cursive !important;
+  font-size: 1.8rem !important;
+  font-weight: bolder;
+  color: rgba(131, 58, 180, 1);
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.titulos-footer-chicos {
+  font-family: "Poppins" !important;
+  font-size: 1.5rem !important;
+  line-height: 1.5 !important;
+  font-weight: 600;
+  color: white;
+}
+.mapa {
+}
+.iframe-container {
+  text-align: center;
+  width: 100%;
+}
+.iframe-container h2 {
+  font-size: larger;
+  font-weight: 500;
+  font-family: "Poppins" !important;
+}
+.titulo-mapa {
+    background-color: rgba(34, 54, 69, 0.7);
+    margin: auto;
+    width: 100rem;
+    height: 4rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+   
+}
+.titulo-cartas {
+    background-color: rgba(34, 54, 69, 0.7);
+    margin: auto;
+    width: 100rem;
+    height: 4rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+    margin-left:0rem;
+}
+.titulo-mapa h1 {
+  margin-top: 1rem;
+  font-size: 2rem !important;
+  color: #fff;
+}
+.titulo-cartas h1 {
+    margin-top: 1rem;
+    font-size: 2rem !important;
+    color: #fff;
+}
+.abajo {
+    margin-left:15rem !important;
+
+
+
+}

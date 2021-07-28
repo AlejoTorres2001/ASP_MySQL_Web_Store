@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  font-family: "Poppins" !important;
+  font-size: 17px !important;
+  line-height: 1.5 !important;
+  box-sizing: border-box !important;
+
+  overflow-x: hidden;
+}
+.llama{
+
+
+  width: 50px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none !important;
+  color: rgba(34, 54, 69, 0.7) !important;
+  font-weight: 800 !important;
+}
+
+.header a:hover {
+  color: #508f27 !important;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    rgba(131, 58, 180, 1) 0%,
+    #508f27 51%,
+    rgba(131, 58, 180, 1) 100%
+  );
+}
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder !important;
+  font-size: 15px !important;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100rem;
+
+  background-image: linear-gradient(
+    181deg,
+    rgba(131, 58, 180, 1) 40.9%,
+    rgba(61, 129, 44, 1) 80.8%
+  );
+}
+
+.nav-item {
+  margin-right: 2rem;
+}
+ul {
+  list-style: none;
+}
+.navbar {
+  background: #fff;
+  padding: 3rem 2rem;
+  height: 0rem;
+  min-height: 12vh;
+  overflow-y: hidden;
+}
+.navbar.navbar-brand a {
+  padding: 1rem 0 !important;
+  display: block !important;
+  text-decoration: none !important;
+}
+.navbar-brand {
+  font-family: "Pacifico", cursive !important;
+  font-size: 2.5rem !important;
+  color: rgba(131, 58, 180, 1) !important;
+}
+.navbar-toggler {
+  background: rgba(131, 58, 180, 1) !important;
+  border: none !important;
+  padding: 10px 6px !important;
+  outline: none !important;
+}
+.navbar-toggler span {
+  display: block !important;
+  width: 22px !important;
+  height: 2px !important;
+  border: 1px !important;
+  background: rgba(131, 58, 180, 1) !important;
+}
+.navbar-toggler span + span {
+  margin-top: 4px !important;
+  width: 18px !important;
+  margin-left: 4px !important;
+}
+.navbar-toggler span + span + span {
+  width: 10px !important;
+  margin-left: 10px !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 2rem 1 2rem !important;
+  font-size: 1.4rem !important;
+  position: relative !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  border-top: 4px solid rgba(61, 129, 44, 1) !important;
+  color: rgba(61, 129, 44, 1) !important;
+}
+.navbar-nav button {
+  padding: 1.2rem 0 !important;
+}
+.navbar-nav .btn {
+  border-radius: 0 !important;
+  padding: 0.5rem !important;
+  font-size: 1rem !important;
+  margin-top: 1px !important;
+}
+
+.carousel-item {
+  height: 32rem;
+  background: #777;
+  position: relative;
+}
+.texto {
+  color: gainsboro;
+  text-align: center;
+  text-decoration: solid;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.overlay-image {
+  background-image: url("/resources/pexels-evg-culture-1040173.jpg") !important;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  width: 200vh;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  overflow: hidden;
+  width: 20rem;
+  margin-right: 4rem;
+}
+.btn-bg {
+  background-color: #508f27 !important;
+  color: #fff !important;
+  margin-left: 1rem;
+}
+.btn-bg:hover {
+  color: #fff !important;
+}
+.btn-bg:focus {
+  box-shadow: 0 0 0 0.25rem #777 !important;
+}
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.2) !important;
+  transition: all 0.7s linear !important;
+}
+.card-body {
+  padding: 2rem 0 !important;
+}
+.card-text {
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+}
+.card-img-top {
+  transition: all 0.2s ease-in-out;
+}
+.card-img-top:hover {
+  transform: scale(1.13);
+}
+.overflow {
+  overflow: hidden;
+}
+.card-title {
+  margin-left: 1rem;
+  font-weight: 600;
+}
+
+footer {
+  color: rgba(34, 54, 69, 0.7) !important;
+  height: 700px;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+.titulos-footer {
+  font-family: "Pacifico", cursive !important;
+  font-size: 1.8rem !important;
+  font-weight: bolder;
+  color: rgba(131, 58, 180, 1);
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.titulos-footer-chicos {
+  font-family: "Poppins" !important;
+  font-size: 1.5rem !important;
+  line-height: 1.5 !important;
+  font-weight: 600;
+  color: white;
+}
+
+.boton-cancelar {
+  float: left;
+  margin: 10px 0 0 18.2%;
+}
+.boton-guardar {
+    float: right;
+    margin: 10px 18.2% 0 0;
+    color: white !important;
+}
+.box {
+  box-sizing: border-box;
+  width: 30rem;
+  height: 40rem;
+  border: 2px solid rgba(81, 84, 115, 1);
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+  border-radius: 5px;
+  background-image: linear-gradient(
+    94.3deg,
+    rgba(26, 33, 64, 1) 10.9%,
+    rgba(81, 84, 115, 1) 87.1%
+  );
+  margin-top: 50px;
+  overflow: hidden;
+}
+.foto-perfil {
+  box-sizing: border-box;
+  width: 149px;
+  height: 149px;
+  border-radius: 50%;
+  margin: 0;
+  border: 5px solid white;
+  padding: 3px;
+  background-color: rgb(63, 61, 61);
+  overflow-y: hidden;
+}
+input[type="text"],
+input[type="email"] {
+  display: block;
+  box-sizing: border-box;
+  background: none;
+  color: #508f27;
+  margin-bottom: 30px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #508f27;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-bottom: 2px solid #508f27;
+  border-bottom-right-radius: 20px;
+  color: #508f27;
+  transition: 0.2 ease;
+}
+.boton {
+  border: 1px solid;
+  background-color: rgba(131, 58, 180, 1);
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 0px;
+  transition: all 0.3s;
+}
+button:hover {
+  transform: scale(1.1);
+}
+.historial {
+  border: 1px solid;
+  background-color: rgba(131, 58, 180, 1);
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 0px;
+  transition: all 0.3s;
+  margin-top: 3rem;
+  width: 15rem;
+}
+.boton-guardar {
+  margin-right: 3rem;
+}
+.boton-cancelar {
+  margin-left: 3rem;
+}
+input[type="file"] {
+  display: none;
+}
+label {
+  box-sizing: border-box;
+  font-size: 20px;
+  background-color: rgba(131, 58, 180, 1);
+  color: wheat;
+  border: 1px SOLID;
+  padding: 2px 15px;
+  border-radius: 5px;
+  transition: all 0.3s;
+  margin-top: 4rem;
+}
+label:hover {
+  transform: scale(1.1);
+}
+footer {
+  color: rgba(34, 54, 69, 0.7) !important;
+  height: 700px;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+.titulos-footer {
+  font-family: "Pacifico", cursive !important;
+  font-size: 1.8rem !important;
+  font-weight: bolder;
+  color: rgba(131, 58, 180, 1);
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.titulos-footer-chicos {
+  font-family: "Poppins" !important;
+  font-size: 1.5rem !important;
+  line-height: 1.5 !important;
+  font-weight: 600;
+  color: white;
+}

@@ -1,0 +1,323 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+    font-family: "Poppins" !important;
+    font-size: 17px !important;
+    line-height: 1.5 !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden;
+}
+
+.llama {
+    width: 50px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none !important;
+    color: rgba(34, 54, 69, 0.7) !important;
+    font-weight: 800 !important;
+}
+
+.header a:hover {
+    color: #508f27 !important;
+}
+
+.btn-grad {
+    background-image: linear-gradient( to right, rgba(131, 58, 180, 1) 0%, #508f27 51%, rgba(131, 58, 180, 1) 100% );
+}
+
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder !important;
+    font-size: 15px !important;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+    .btn-grad:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        transition: 0.2s;
+        text-decoration: none;
+    }
+
+.pagar {
+    font-size: xx-large !important;
+    font-weight: 800 !important;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100rem;
+    background-image: linear-gradient( 181deg, rgba(131, 58, 180, 1) 40.9%, rgba(61, 129, 44, 1) 80.8% );
+}
+
+.nav-item {
+    margin-right: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    background: #fff;
+    padding: 3rem 2rem;
+    height: 0rem;
+    min-height: 12vh;
+    overflow-y: hidden;
+}
+
+    .navbar.navbar-brand a {
+        padding: 1rem 0 !important;
+        display: block !important;
+        text-decoration: none !important;
+    }
+
+.navbar-brand {
+    font-family: "Pacifico", cursive !important;
+    font-size: 2.5rem !important;
+    color: rgba(131, 58, 180, 1) !important;
+}
+
+.navbar-toggler {
+    background: rgba(131, 58, 180, 1) !important;
+    border: none !important;
+    padding: 10px 6px !important;
+    outline: none !important;
+}
+
+    .navbar-toggler span {
+        display: block !important;
+        width: 22px !important;
+        height: 2px !important;
+        border: 1px !important;
+        background: rgba(131, 58, 180, 1) !important;
+    }
+
+        .navbar-toggler span + span {
+            margin-top: 4px !important;
+            width: 18px !important;
+            margin-left: 4px !important;
+        }
+
+            .navbar-toggler span + span + span {
+                width: 10px !important;
+                margin-left: 10px !important;
+            }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 2rem 1 2rem !important;
+    font-size: 1.4rem !important;
+    position: relative !important;
+}
+
+    .navbar-expand-lg .navbar-nav .nav-link:hover {
+        border-top: 4px solid rgba(61, 129, 44, 1) !important;
+        color: rgba(61, 129, 44, 1) !important;
+    }
+
+.navbar-nav button {
+    padding: 1.2rem 0 !important;
+}
+
+.navbar-nav .btn {
+    border-radius: 0 !important;
+    padding: 0.5rem !important;
+    font-size: 1rem !important;
+    margin-top: 1px !important;
+}
+
+.texto {
+    color: gainsboro;
+    text-align: center;
+    text-decoration: solid;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    color: rgba(34, 54, 69, 0.7) !important;
+    height: 700px;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+}
+
+.titulos-footer {
+    font-family: "Pacifico", cursive !important;
+    font-size: 1.8rem !important;
+    font-weight: bolder;
+    color: rgba(131, 58, 180, 1);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.titulos-footer-chicos {
+    font-family: "Poppins" !important;
+    font-size: 1.5rem !important;
+    line-height: 1.5 !important;
+    font-weight: 600;
+    color: white;
+}
+
+footer {
+    color: rgba(34, 54, 69, 0.7) !important;
+    height: 700px;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+}
+
+.titulos-footer {
+    font-family: "Pacifico", cursive !important;
+    font-size: 1.8rem !important;
+    font-weight: bolder;
+    color: rgba(131, 58, 180, 1);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.titulos-footer-chicos {
+    font-family: "Poppins" !important;
+    font-size: 1.5rem !important;
+    line-height: 1.5 !important;
+    font-weight: 600;
+    color: white;
+}
+
+producto img {
+    width: 200px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.producto h3 {
+    font-size: 2em !important;
+    margin: 5px 0px 7px 0px !important;
+}
+
+.card {
+    width: 40vh;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.12).0 1px 2px rgba(0, 0, 0, 0.24);
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+
+
+    text-align: center;
+}
+
+.titulo-catalogo {
+    background-color: rgba(34, 54, 69, 0.7);
+    margin: auto;
+    width: 100rem;
+    height: 4rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-size: xx-large !important;
+}
+
+.check {
+    width: 422px;
+    height: 30px;
+    align-content: center;
+    margin-bottom: 1rem;
+}
+
+.cantidad-prod {
+    align-content: center;
+    width: 78px;
+    height: 24px;
+    margin-left: 10rem;
+    margin-bottom: 1rem;
+}
+
+.btn-grad {
+    background-image: linear-gradient( to right, rgba(131, 58, 180, 1) 0%, #508f27 51%, rgba(131, 58, 180, 1) 100% );
+}
+
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder !important;
+    font-size: 15px !important;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.btn-grad-limpiar {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder !important;
+    font-size: 15px !important;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    margin-left: 2rem;
+    width: 11rem;
+}
+
+.btn-grad-limpiar {
+    background-image: linear-gradient( to right, rgba(131, 58, 180, 1) 0%, #508f27 51%, rgba(131, 58, 180, 1) 100% );
+}
+
+    .btn-grad-limpiar:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        transition: 0.2s;
+        text-decoration: none;
+    }
+
+
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.limpiar {
+    font-weight: 800 !important;
+}
+
+.pagar {
+    font-size: xx-large !important;
+    font-weight: 800 !important;
+}
