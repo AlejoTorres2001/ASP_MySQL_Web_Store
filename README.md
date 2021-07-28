@@ -15,3 +15,6 @@ El sistema web constará de los siguientes módulos:
 **•	Administrador:** Solo el usuario administrador podrá realizar alta baja y modificaciones de productos desde la página web, como así también obtener información acerca de las ventas, los usuarios registrados y los artículos más vendidos
 
 **UCASAL** Universidad Catolica de Salta
+
+
+
